@@ -1,0 +1,89 @@
+com.amazon.fv Failure [not installed for 0]
+
+com.amazon.kindle Failure [not installed for 0]
+
+com.amazon.mp3 Failure [not installed for 0]
+
+com.amazon.mShop.android Failure [not installed for 0]
+
+com.amazon.venezia Failure [not installed for 0]
+
+com.facebook.appmanager Success
+
+com.facebook.katana Failure [not installed for 0]
+
+com.facebook.services Success
+
+com.facebook.system Success
+
+com.google.android.apps.books Failure [not installed for 0]
+
+com.google.android.apps.magazines Failure [not installed for 0]
+
+com.google.android.videos Success
+
+com.microsoft.appmanager Success
+
+com.sec.android.app.dexonpc Success
+
+com.sec.android.app.sbrowser Success
+
+com.sec.android.app.shealth Failure [not installed for 0]
+
+com.samsung.android.scloud Success
+
+com.samsung.android.svoice Failure [not installed for 0]
+
+com.samsung.android.svoiceime Success
+
+com.samsung.svoice.sync Failure [not installed for 0]
+
+com.samsung.android.app.settings.bixby Success
+
+com.samsung.android.bixby.agent Success
+
+com.samsung.android.bixby.agent.dummy Success
+
+com.samsung.android.bixby.es.globalaction Failure [not installed for 0]
+
+com.samsung.android.bixby.plmsync Failure [not installed for 0]
+
+com.samsung.android.bixby.service Success
+
+com.samsung.android.bixby.voiceinput Failure [not installed for 0]
+
+com.samsung.android.bixby.wakeup Success
+
+com.sec.android.easyMover Success
+
+com.sec.android.easyMover.Agent Success
+
+com.sec.android.app.samsungapps Success
+
+com.samsung.android.app.tips Success
+
+com.samsung.android.email.provider Failure [not installed for 0]
+
+com.samsung.android.app.routines Success
+
+com.samsung.android.voc Failure [not installed for 0]
+
+com.samsung.android.spay Failure [not installed for 0]
+
+com.samsung.android.spayfw Success
+
+com.samsung.android.authfw Success
+
+com.samsung.android.samsungpass Success
+
+com.samsung.android.samsungpassautofill Success
+
+com.samsung.android.app.spage Success
+
+com.wsomacp Success
+
+com.samsung.desktopsystemui Success
+
+com.sec.android.app.desktoplauncher Success
+
+com.sec.android.desktopmode.uiservice Success
