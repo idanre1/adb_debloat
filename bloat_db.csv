@@ -1,0 +1,307 @@
+id, name
+com.amazon.fv,Unknown
+com.amazon.mp3,Amazon Music: Stream and Discover Songs & Podcasts 
+com.amazon.mShop.android,Amazon Shopping
+com.amazon.venezia,Unknown
+com.android.backupconfirm,Unknown
+com.android.bips,Unknown
+com.android.chrome,Google Chrome: Fast & Secure 
+com.android.dreams.basic,Unknown
+com.android.dreams.phototable,Unknown
+com.android.email,Unknown
+com.android.exchange,Unknown
+com.android.hotwordenrollment.okgoogle,Unknown
+com.android.printspooler,Unknown
+com.android.providers.partnerbookmarks,Unknown
+com.android.providers.userdictionary,Unknown
+com.android.sharedstoragebackup,Unknown
+com.android.stk,Unknown
+com.android.wallpaper.livepicker,Unknown
+com.android.wallpapercropper,Unknown
+com.audible.application,"Audible: audiobooks, podcasts & audio stories "
+com.blurb.checkout,Unknown
+com.cequint.ecid,Unknown
+com.cnn.mobile.android.phone.edgepanel,Unknown
+com.diotek.sec.lookup.dictionary,Unknown
+com.dsi.ant.plugins.antplus,Unknown
+com.dsi.ant.sample.acquirechannels,Unknown
+com.dsi.ant.server,Unknown
+com.dsi.ant.service.socket,ANT Radio Service 
+com.enhance.gameservice,Unknown
+com.facebook.appmanager,Unknown
+com.facebook.katana,Facebook 
+com.facebook.services,Unknown
+com.facebook.system,Unknown
+com.google.android.apps.books,Google Play Books & Audiobooks 
+com.google.android.apps.docs,Google Drive 
+com.google.android.apps.magazines,Google News 
+com.google.android.apps.maps,Google Maps 
+com.google.android.apps.plus,Currents 
+com.google.android.apps.tachyon,Google Duo 
+com.google.android.gm,Gmail 
+com.google.android.googlequicksearchbox,Google app 
+com.google.android.printservice.recommendation,Unknown
+com.google.android.talk,Hangouts 
+com.google.android.tts,Speech Services by Google 
+com.google.android.videos,Google Play Movies & TV 
+com.google.android.youtube,YouTube 
+com.google.ar.core,Google Play Services for AR 
+com.google.vr.vrcore,Google VR Services 
+com.gotv.nflgamecenter.us.lite,NFL 
+com.hancom.office.editor.hidden,Unknown
+com.imdb.mobile,"IMDb: Your guide to movies, TV shows, celebrities "
+com.infraware.polarisoffice5,Unknown
+com.microsoft.appmanager,Your Phone Companion 
+com.microsoft.office.excel,"Microsoft Excel: View, Edit, & Create Spreadsheets "
+com.microsoft.office.powerpoint,Microsoft PowerPoint: Slideshows and Presentations 
+com.microsoft.office.word,"Microsoft Word: Write, Edit & Share Docs on the Go "
+com.microsoft.skydrive,Microsoft OneDrive 
+com.mobeam.barcodeService,Unknown
+com.monotype.android.font.chococooky,Unknown
+com.monotype.android.font.cooljazz,Unknown
+com.monotype.android.font.foundation,Unknown
+com.monotype.android.font.rosemary,Unknown
+com.nuance.swype.input,Unknown
+com.osp.app.signin,Unknown
+com.policydm,Samsung Security Policy Update 
+com.samsung.aasaservice,Unknown
+com.samsung.advp.imssettings,Unknown
+com.samsung.android.aircommandmanager,Unknown
+com.samsung.android.allshare.service.fileshare,Unknown
+com.samsung.android.allshare.service.mediashare,Unknown
+com.samsung.android.app.advsounddetector,Unknown
+com.samsung.android.app.appsedge,Unknown
+com.samsung.android.app.assistantmenu,Unknown
+com.samsung.android.app.camera.sticker.facear.preload,Unknown
+com.samsung.android.app.camera.sticker.facear3d.preload,Unknown
+com.samsung.android.app.camera.sticker.facearavatar.preload,Unknown
+com.samsung.android.app.camera.sticker.facearframe.preload,Unknown
+com.samsung.android.app.camera.sticker.stamp.preload,Unknown
+com.samsung.android.app.clipboardedge,Unknown
+com.samsung.android.app.cocktailbarservice,Unknown
+com.samsung.android.app.episodes,Unknown
+com.samsung.android.app.filterinstaller,Unknown
+com.samsung.android.app.galaxyfinder,Unknown
+com.samsung.android.app.ledbackcover,Unknown
+com.samsung.android.app.ledcoverdream,Unknown
+com.samsung.android.app.memo,Unknown
+com.samsung.android.app.mirrorlink,Unknown
+com.samsung.android.app.notes,Samsung Notes 
+com.samsung.android.app.reminder,Unknown
+com.samsung.android.app.routines,Bixby Routines
+com.samsung.android.app.sbrowseredge,Samsung browsser
+com.samsung.android.app.settings.bixby,Unknown
+com.samsung.android.app.sharelive,Unknown
+com.samsung.android.app.simplesharing,Unknown
+com.samsung.android.app.soundpicker,Unknown
+com.samsung.android.app.spage,Samsung free
+com.samsung.android.app.storyalbumwidget,Unknown
+com.samsung.android.app.talkback,Unknown
+com.samsung.android.app.taskedge,Unknown
+com.samsung.android.app.tips,Unknown
+com.samsung.android.app.vrsetupwizardstub,Unknown
+com.samsung.android.app.watchmanager,Galaxy Wearable (Samsung Gear) 
+com.samsung.android.app.watchmanagerstub,Unknown
+com.samsung.android.app.withtv,Unknown
+com.samsung.android.ardrawing,Unknown
+com.samsung.android.aremoji,Unknown
+com.samsung.android.arzone,Unknown
+com.samsung.android.authfw,Samsung Pass
+com.samsung.android.aware.service,Unknown
+com.samsung.android.bbc.bbcagent,Unknown
+com.samsung.android.beaconmanager,Unknown
+com.samsung.android.bixby.agent,Unknown
+com.samsung.android.bixby.agent.dummy,Unknown
+com.samsung.android.bixby.es.globalaction,Unknown
+com.samsung.android.bixby.plmsync,Unknown
+com.samsung.android.bixby.service,Unknown
+com.samsung.android.bixby.voiceinput,Unknown
+com.samsung.android.bixby.wakeup,Unknown
+com.samsung.android.bixbyvision.framework,Unknown
+com.samsung.android.calendar,Unknown
+com.samsung.android.da.daagent,Unknown
+com.samsung.android.dlp.service,Unknown
+com.samsung.android.drivelink.stub,Unknown
+com.samsung.android.easysetup,Unknown
+com.samsung.android.email.provider,Samsung Email 
+com.samsung.android.fmm,Unknown
+com.samsung.android.game.gamehome,Unknown
+com.samsung.android.game.gametools,Unknown
+com.samsung.android.game.gos,Unknown
+com.samsung.android.gametuner.thin,Unknown
+com.samsung.android.hmt.vrshell,Unknown
+com.samsung.android.hmt.vrsvc,Unknown
+com.samsung.android.keyguardwallpaperupdator,Unknown
+com.samsung.android.kidsinstaller,Unknown
+com.samsung.android.knox.analytics.uploader,Unknown
+com.samsung.android.lool,Device Care 
+com.samsung.android.mateagent,Unknown
+com.samsung.android.mdm,Unknown
+com.samsung.android.mdx,Unknown
+com.samsung.android.mdx.kit,Unknown
+com.samsung.android.mdx.quickboard,Unknown
+com.samsung.android.messaging,Unknown
+com.samsung.android.mobileservice,Group Sharing 
+com.samsung.android.oneconnect,SmartThings 
+com.samsung.android.samsungpass,Samsung Pass Provider
+com.samsung.android.samsungpassautofill,Samsung Pass Provider
+com.samsung.android.scloud,Samsung cloud
+com.samsung.android.sdk.professionalaudio.utility.jammonitor,Unknown
+com.samsung.android.server.iris,Unknown
+com.samsung.android.service.livedrawing,Unknown
+com.samsung.android.service.peoplestripe,Unknown
+com.samsung.android.service.travel,Unknown
+com.samsung.android.setting.multisound,Unknown
+com.samsung.android.spay,Samsung Pay 
+com.samsung.android.spayfw,Samsung Pay 
+com.samsung.android.spdfnote,Write on PDF 
+com.samsung.android.stickercenter,Unknown
+com.samsung.android.stickerplugin,Unknown
+com.samsung.android.svoice,Unknown
+com.samsung.android.svoiceime,Unknown
+com.samsung.android.themecenter,Unknown
+com.samsung.android.themestore,Unknown
+com.samsung.android.tripwidget,Unknown
+com.samsung.android.visionarapps,Unknown
+com.samsung.android.visioncloudagent,Unknown
+com.samsung.android.visionintelligence,Unknown
+com.samsung.android.voicewakeup,Unknown
+com.samsung.android.wellbeing,Unknown
+com.samsung.android.widgetapp.yahooedge.finance,Unknown
+com.samsung.android.widgetapp.yahooedge.sport,Unknown
+com.samsung.app.highlightplayer,Unknown
+com.samsung.daydream.customization,Unknown
+com.samsung.dcmservice,Unknown
+com.samsung.desktopsystemui,DEX
+com.samsung.enhanceservice,Unknown
+com.samsung.faceservice,Unknown
+com.samsung.fresco.logging,Unknown
+com.samsung.groupcast,Unknown
+com.samsung.hs20provider,Unknown
+com.samsung.ipservice,Unknown
+com.samsung.knox.appsupdateagent,Unknown
+com.samsung.knox.rcp.components,Unknown
+com.samsung.knox.securefolder,Secure Folder 
+com.samsung.knox.securefolder.setuppage,Unknown
+com.samsung.safetyinformation,Unknown
+com.samsung.sec.android.application.csc,Unknown
+com.samsung.SMT,Unknown
+com.samsung.storyservice,Unknown
+com.samsung.svoice.sync,Unknown
+com.samsung.systemui.bixby,Unknown
+com.samsung.systemui.bixby2,Unknown
+com.samsung.ucs.agent.ese,Unknown
+com.samsung.voiceserviceplatform,Unknown
+com.sec.android.app.apex,Unknown
+com.sec.android.app.applinker,Unknown
+com.sec.android.app.billing,Unknown
+com.sec.android.app.bluetoothtest,Unknown
+com.sec.android.app.chromecustomizations,Chrome
+com.sec.android.app.clockpackage,Unknown
+com.sec.android.app.DataCreate,Unknown
+com.sec.android.app.desktoplauncher,Dex
+com.sec.android.app.dexonpc,Unknown
+com.sec.android.app.factorykeystring,Unknown
+com.sec.android.app.gamehub,Unknown
+com.sec.android.app.hwmoduletest,Unknown
+com.sec.android.app.magnifier,Unknown
+com.sec.android.app.myfiles,Samsung My Files 
+com.sec.android.app.ocr,Unknown
+com.sec.android.app.parser,Unknown
+com.sec.android.app.personalization,Unknown
+com.sec.android.app.popupcalculator,Samsung Calculator 
+com.sec.android.app.quicktool,Unknown
+com.sec.android.app.ringtoneBR,Unknown
+com.sec.android.app.safetyassurance,Unknown
+com.sec.android.app.samsungapps,Unknown
+com.sec.android.app.sbrowser,Samsung Internet Browser 
+com.sec.android.app.SecSetupWizard,Unknown
+com.sec.android.app.servicemodeapp,Unknown
+com.sec.android.app.shealth,Samsung Health 
+com.sec.android.app.SmartClipEdgeService,Unknown
+com.sec.android.app.soundalive,Unknown
+com.sec.android.app.sysscope,Unknown
+com.sec.android.app.tfunlock,Unknown
+com.sec.android.app.tourviewer,Unknown
+com.sec.android.app.translator,Unknown
+com.sec.android.app.ve.vebgm,Unknown
+com.sec.android.app.wfdbroker,Unknown
+com.sec.android.app.withtv,Unknown
+com.sec.android.app.wlantest,Unknown
+com.sec.android.AutoPreconfig,Unknown
+com.sec.android.cover.ledcover,Unknown
+com.sec.android.daemonapp,Weather, stock, etc..
+com.sec.android.desktopmode.uiservice,Dex
+com.sec.android.diagmonagent,Unknown
+com.sec.android.easyMover,Samsung Smart Switch Mobile 
+com.sec.android.easyMover.Agent,Unknown
+com.sec.android.easyonehand,Unknown
+com.sec.android.emergencylauncher,Unknown
+com.sec.android.mimage.avatarstickers,Unknown
+com.sec.android.mimage.gear360editor,Unknown
+com.sec.android.mimage.photoretouching,Unknown
+com.sec.android.ofviewer,Unknown
+com.sec.android.omc,Unknown
+com.sec.android.Preconfig,Unknown
+com.sec.android.preloadinstaller,Unknown
+com.sec.android.provider.snote,Unknown
+com.sec.android.providers.security,Unknown
+com.sec.android.providers.tasks,Unknown
+com.sec.android.RilServiceModeApp,Unknown
+com.sec.android.sdhms,Unknown
+com.sec.android.service.health,Unknown
+com.sec.android.sidesync30,Unknown
+com.sec.android.splitsound,Unknown
+com.sec.android.uibcvirtualsoftkey,Unknown
+com.sec.android.widgetapp.diotek.smemo,Unknown
+com.sec.android.widgetapp.easymodecontactswidget,Unknown
+com.sec.android.widgetapp.samsungapps,Unknown
+com.sec.app.TransmitPowerService,Unknown
+com.sec.automation,Unknown
+com.sec.bcservice,Unknown
+com.sec.downloadablekeystore,Unknown
+com.sec.enterprise.knox.attestation,Unknown
+com.sec.enterprise.knox.cloudmdm.smdms,Unknown
+com.sec.enterprise.mdm.services.simpin,Unknown
+com.sec.enterprise.mdm.vpn,Unknown
+com.sec.epdgtestapp,Unknown
+com.sec.everglades,Unknown
+com.sec.everglades.update,Unknown
+com.sec.factory,Unknown
+com.sec.factory.camera,Unknown
+com.sec.factory.iris.usercamera,Unknown
+com.sec.hearingadjust,Unknown
+com.sec.ims,Unknown
+com.sec.imslogger,Unknown
+com.sec.imsservice,Unknown
+com.sec.kidsplat.installer,Unknown
+com.sec.knox.foldercontainer,Unknown
+com.sec.knox.knoxsetupwizardclient,Unknown
+com.sec.knox.switcher,Unknown
+com.sec.location.nsflp2,Unknown
+com.sec.mldapchecker,Unknown
+com.sec.modem.settings,Unknown
+com.sec.providers.assisteddialing,Unknown
+com.sec.readershub,Unknown
+com.sec.smartcard.manager,Unknown
+com.sec.spen.flashannotate,Unknown
+com.sec.spp.push,Samsung Push Service 
+com.sec.sve,Unknown
+com.sec.usbsettings,Unknown
+com.sec.vowifispg,Unknown
+com.sec.yosemite.phone,Unknown
+com.sem.factoryapp,Unknown
+com.singtel.mysingtel,My Singtel 
+com.skms.android.agent,Unknown
+com.skype.raider,Skype 
+com.test.LTEfunctionality,Unknown
+com.tripadvisor.tripadvisor,"Tripadvisor: Hotels, Activities & Restaurants "
+com.trustonic.tuiservice,Unknown
+com.vlingo.midas,Unknown
+com.wsomacp,SAMSUNG EMAIL
+com.wssnps,Unknown
+com.yelp.android.samsungedge,Unknown
+comflipboard.app,Unknown
+comflipboard.boxer.app,Unknown
+comtv.peel.samsung.app,Unknown
+com.samsung.android.voc,Samsung Members

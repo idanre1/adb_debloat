@@ -4,7 +4,7 @@ Remove bloatware from Android devices without root using python
 This repo gets its bloat list from: https://github.com/khlam/debloat-samsung-android
 Kudos for making the list live and up to date.
 The wrapper tools are tested on samsung phones but can easily adapted to other makers.
-Mainly the repo filters the bloat list and try to keep description of every software ID.
+Mainly the repo filters bloat list and try to keep description of every software ID.
 # WSL 1
 The wrapper tools is written in python using WSL1, why?
 1. You have native linux python

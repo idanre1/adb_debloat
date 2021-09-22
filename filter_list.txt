@@ -1,0 +1,3 @@
+Filter list, Don't remove apps which exists in that list
+com.android.chrome | Web browser
+com.amazon.kindle

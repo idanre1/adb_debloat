@@ -1,3 +1,6 @@
+https://forum.xda-developers.com/t/my-s10-s10-bloatware-package-name-list.4054003/
+https://forum.xda-developers.com/t/galaxy-s10-s10-debloat-bloatware-removal-list.3912073/
+https://forum.xda-developers.com/t/galaxy-s10-s10-debloat-bloatware-removal-list.3912073/page-2#post-79191238
 pm uninstall -k --user 0 com.amazon.fv
 pm uninstall -k --user 0 com.amazon.kindle
 pm uninstall -k --user 0 com.amazon.mp3
