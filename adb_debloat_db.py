@@ -32,14 +32,26 @@ if args.refresh:
                       stderr = subprocess.STDOUT)
     output, err = ps.communicate()
     assert err is None, err
+    print('Done')
+    
+    print('Updating appname_list.txt from adb package list...')
+    adb='/mnt/c/Program Files (x86)/Minimal ADB and Fastboot/adb.exe'
+    cmd_ = shlex.split('shell pm list packages -f')
+    cmd_.insert(0, adb)
+    ps = subprocess.Popen(shlex.split(cmd_),
+                      stdout = subprocess.PIPE,
+                      stderr = subprocess.STDOUT)
+    output, err = ps.communicate()
+    assert err is None, err
     print('Done (quitting)')
+
     quit()
 
 ############################################################
 # Filter list
 ############################################################
-pkg = re.compile('com.*\.\w*')
-
+pkg = re.compile('com\w*\.[\w.]*')
+appname=re.compile('app/(\w*)/.*\.apk=([\w.]*)')
 filter=[]
 with open('filter_list.txt') as fp:
     file_contents = fp.read()
@@ -57,22 +69,43 @@ print(f'Filter list: {filter}')
 ############################################################
 # DB handling
 ############################################################
-def get_pkt_name(name):
-    rand_sleep()
+def get_pkg_name(name):
     try:
-        response = urllib.request.urlopen(f'https://play.google.com/store/apps/details?id={name}')
-        html = response.read()
-        soup = BeautifulSoup(html, features="lxml")
-        title = soup.title.string.split('-')
-        return title[0]
-    except:
-        return "Unknown"
+        return appname_dict[name]
+    except KeyError:
+        print(f'Quering google for: {name}')
+        rand_sleep()
+        try:
+            response = urllib.request.urlopen(f'https://play.google.com/store/apps/details?id={name}')
+            html = response.read()
+            soup = BeautifulSoup(html, features="lxml")
+            title = soup.title.string.split('-')
+            return title[0]
+        except:
+            return "Unknown"
 
 # init DB
 try:
     df = pd.read_csv('bloat_db.csv', header=0, index_col=0)
 except:
+    print('INFO: New bloat_db')
     df = pd.DataFrame(index=['id'], columns=['desc'])
+
+############################################################
+# Fallback list
+############################################################
+appname_dict={}
+with open('appname_list.txt') as fp:
+    file_contents = fp.read()
+    appname_list=file_contents.splitlines()
+    for name in appname_list:
+        s=appname.search(name)
+        try:
+            appname_dict[s.group(1)]=s.group(2)
+        except:
+            # Weird names are bypassed
+            # e.g. package:/data/app/~~JqssgF-sdhI3iEpU-lY8kg==/com.google.android.youtube-2H0efwML7LMn_1G9pgMV6w==/base.apk=com.google.android.youtube
+            pass
 
 ############################################################
 # Bloatware list
@@ -89,8 +122,13 @@ for x in bloat_list:
     # Found a match
     if m is not None:
         if m not in filter:
-            if m not in df.index:
-                name = get_pkt_name(m)
-                df.loc[m] = name
+            try:
+                if df.loc[m]['desc'] == 'Unknown':
+                    name=get_pkg_name(m)
+                    df.loc[m]=name
+                    df.to_csv('bloat_db.csv')
+            except KeyError:
+                name=get_pkg_name(m)
+                df.loc[m]=name
                 df.to_csv('bloat_db.csv')
 
