@@ -44,3 +44,4 @@ com.wsomacp
 com.samsung.desktopsystemui
 com.sec.android.app.desktoplauncher
 com.sec.android.desktopmode.uiservice
+com.samsung.android.calendar
