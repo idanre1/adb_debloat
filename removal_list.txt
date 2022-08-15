@@ -45,3 +45,6 @@ com.samsung.desktopsystemui
 com.sec.android.app.desktoplauncher
 com.sec.android.desktopmode.uiservice
 com.samsung.android.calendar
+com.samsung.android.kidsinstaller
+com.sec.android.app.kidshome
+com.sec.penup
