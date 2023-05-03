@@ -1,5 +1,13 @@
 # adb_debloat
 Remove bloatware from Android devices without root using python
+```python
+# update bloat_list.txt and appname_list.txt
+adb_debloat_db.py --refresh
+# update bloat_db.csv
+adb_debloat_db.py
+# Execute removal
+adb_debloat_execute.py
+```
 # Wrapper tools
 This repo gets its bloat list from: https://github.com/khlam/debloat-samsung-android
 Kudos for making the list live and up to date.
