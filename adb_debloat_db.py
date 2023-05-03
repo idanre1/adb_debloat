@@ -8,6 +8,23 @@ import pandas as pd
 import random
 import time
 
+# Process:
+# run adb_debloat_db.py --refresh      to update bloat_list.txt and appname_list.txt
+# run adb_debloat_db.py                to update bloat_db.csv
+
+# Live Databases:
+# bloat_list.txt: Bloat list from github live database
+# appname_list.txt : List of apps from adb package list
+# Manual databases:
+# filter_list.txt: Don't remove apps which exists in that list
+# Final database of bloatware:
+#   bloat_db.csv - id, desc
+#   All bloarware with description after passing the filter
+
+# Actual debloat:
+# Manually edit app_remove_list.txt
+# run adb_debloat_execute.py
+
 parser = argparse.ArgumentParser()
 parser.add_argument("-r", "--refresh", help="refresh bloatware file", action='store_true')
 args = parser.parse_args()
@@ -38,11 +55,15 @@ if args.refresh:
     adb='/mnt/c/Program Files (x86)/Minimal ADB and Fastboot/adb.exe'
     cmd_ = shlex.split('shell pm list packages -f')
     cmd_.insert(0, adb)
-    ps = subprocess.Popen(shlex.split(cmd_),
+    ps = subprocess.Popen(cmd_,
                       stdout = subprocess.PIPE,
                       stderr = subprocess.STDOUT)
     output, err = ps.communicate()
     assert err is None, err
+    
+    with open ('appname_list.txt', 'w') as fp:
+        fp.write(output.decode('utf-8'))
+    
     print('Done (quitting)')
 
     quit()
